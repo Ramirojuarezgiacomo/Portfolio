@@ -2,7 +2,7 @@
 
 ## Ramas
 
-- [Rama 1](../../tree/web01)
-- [Rama 2](../../tree/web02)
-- [Rama 3](../../tree/web03)
-- [Rama 4](../../tree/web04)
+- [Rama 1](../../blob/web01/index.html)
+- [Rama 2](../../blob/web02/index.html)
+- [Rama 3](../../blob/web03/index.html)
+- [Rama 4](../../blob/web04/index.html)
