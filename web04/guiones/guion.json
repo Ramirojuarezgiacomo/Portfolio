@@ -1,0 +1,125 @@
+{   "audio":"audios/narracion2.mp3",
+    "modelo":"modelos/modelo1.glb",
+    "fondo":"rgb(0,0,60)",
+    "data" :
+        [
+           {
+                "tiempo":"00:00",
+                "duracion":1000,
+                "camara":"camara-1",
+                "target":"target-1",
+                "nombre":"vista uno"
+           },
+           {
+               "tiempo":"00:03",
+               "duracion":18000,
+               "camara":"camara-2",
+               "target":"target-2",
+               "nombre":"vista frente de la casa"
+          },
+          {
+               "tiempo":"00:25",
+               "duracion":23000,
+               "camara":"camara-3",
+               "target":"target-3",
+               "nombre":"vista entra al tunel"
+          },
+          {
+               "tiempo":"00:48",
+               "duracion":0,
+               "camara":"camara-4",
+               "target":"target-4",
+               "nombre":"vista biblioteca"
+          },
+          
+          {
+               "tiempo":"01:04",
+               "duracion":0,
+               "camara":"camara-n",
+               "target":"taget-n",
+               "nombre":"vista negra"
+          },
+          {
+               "tiempo":"01:30",
+               "duracion":0,
+               "camara":"camara-5",
+               "target":"target-5",
+               "nombre":"vista mano con fosforo"
+          },
+          {
+               "tiempo":"01:40",
+               "duracion":0,
+               "camara":"camara-n",
+               "target":"taget-n",
+               "nombre":"vista negra"
+          },
+          {
+               "tiempo":"01:42",
+               "duracion":0,
+               "camara":"camara-6",
+               "target":"target-6",
+               "nombre":"vista mano con fosforo encendido"
+          },
+          {
+               "tiempo":"01:48",
+               "duracion":0,
+               "camara":"camara-n",
+               "target":"taget-n",
+               "nombre":"vista negra"
+          },
+          {
+               "tiempo":"01:51",
+               "duracion":0,
+               "camara":"camara-7",
+               "target":"target-7",
+               "nombre":"vista vieja quemandose"
+          }
+          ,
+          {
+               "tiempo":"02:00",
+               "duracion":18000,
+               "camara":"camara-8",
+               "target":"target-8",
+               "nombre":"vista recorrido a la izq"
+          }
+          ,
+          {
+               "tiempo":"02:18",
+               "duracion":8000,
+               "camara":"camara-9",
+               "target":"target-9",
+               "nombre":"vista recorrido sube la escalera"
+          }
+          ,
+          {
+               "tiempo":"02:29",
+               "duracion":10000,
+               "camara":"camara-8",
+               "target":"target-8",
+               "nombre":"vista recorrido a abajo"
+          },
+          {
+               "tiempo":"02:37",
+               "duracion":12000,
+               "camara":"camara-7",
+               "target":"target-7",
+               "nombre":"vista vieja quemandose"
+          },
+          {
+               "tiempo":"02:48",
+               "duracion":10000,
+               "camara":"camara-3",
+               "target":"target-3",
+               "nombre":"vista ultima entra al tunel"
+          },
+          {
+              "tiempo":"02:58",
+              "duracion":18000,
+              "camara":"camara-2",
+              "target":"target-2",
+              "nombre":"vista ultima frente de la casa"
+         } 
+      ]
+     
+    
+}

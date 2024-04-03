@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Sans+Narrow&display=swap');
+body{
+background-color: rgb(127,127,127);
+}
+h1{
+  font-family: 'Aboreto', cursive;
+  color: white;
+  background-color: #2196f3;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+h2,h3,h6{
+  font-family: 'Aboreto', cursive;
+  color: #2196f3;
+  text-align: center;
+}
+p{
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+}
+h1{
+  text-align: center;
+}
+
+.primero{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+.segundo{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+.tercero{
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+}
+
+.video {
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+	padding: 20px;
+  }
+
+.item{
+padding: 10px;
+display: inline-block;
+}
+.item a{
+color: white;
+text-decoration: none;
+padding: 10px;
+background-color: #2196f3;
+border: 2px solid white;
+}
+.todo{
+  background-color: white;
+  margin: auto;
+  border: 2px solid #2196f3;
+
+}
+
+.credito {
+  text-align: center;
+  margin: 50px auto;
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #2196f3;
+  background-color: white;
+}
+
+.page-footer{
+  background-color:#2196f3;
+}
