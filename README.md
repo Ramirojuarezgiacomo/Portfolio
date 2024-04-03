@@ -1,7 +1,8 @@
 # Tecnomultimedia
 
-## Ramas
+## Páginas
 
-- [Rama 1](web01/index.html)
-- [Rama 2](rama2/index.html)
-- [Rama 3](rama3/index.html)
+- [Página web 01](web01/index.html)
+- [Página web 02](web022/index.html)
+- [Página web 03](web03/index.html)
+- [Página web 04](web04/index.html)
