@@ -9,9 +9,9 @@
 
 ## Processing
 
-- [tp0](tp0/index.html)
-- [tp1](tp1/index.html)
-- [tp2](tp2/index.html)
-- [tp3](tp3/index.html)
-- [tp4](tp4/index.html)
-- [tp5](tp5/index.html)
+- [tp0](tp0)
+- [tp1](tp1)
+- [tp2](tp2)
+- [tp3](tp3)
+- [tp4](tp4)
+- [tp5](tp5)
