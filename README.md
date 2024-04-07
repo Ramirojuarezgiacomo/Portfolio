@@ -12,3 +12,6 @@
 
 ## Processing
 - [Trabajos de Processing](https://github.com/Ramirojuarezgiacomo/Tecnomultimedia/tree/main/Processing)
+
+## Figma
+- [Prototipo](https://www.figma.com/proto/3dvPKl18edPebYUp8k8UMM/GRUPO-8?type=design&node-id=342-25463&scaling=scale-down&page-id=0%3A1&starting-point-node-id=342%3A25463&hotspot-hints=0)
