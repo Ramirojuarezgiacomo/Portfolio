@@ -15,3 +15,7 @@
 
 ## Figma
 - [Prototipo](https://www.figma.com/proto/3dvPKl18edPebYUp8k8UMM/GRUPO-8?type=design&node-id=342-25463&scaling=scale-down&page-id=0%3A1&starting-point-node-id=342%3A25463&hotspot-hints=0)
+
+- [Prototipo 2](https://www.figma.com/proto/WBhHs8OMOhF2xswErUIHdG/TP3.2?type=design&node-id=593-857&t=UgPeI4DtZf1GmBUj-1&scaling=min-zoom&page-id=1%3A4653&starting-point-node-id=593%3A857&mode=design)
+
+- [Card](https://www.figma.com/proto/WBhHs8OMOhF2xswErUIHdG/TP3.2?type=design&node-id=693-1272&t=NtxKGaFcPcjirsiB-1&scaling=contain&page-id=0%3A1&mode=design)
