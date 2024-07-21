@@ -9,6 +9,8 @@
 - [Página web 02](web02/index.html)
 - [Página web 03](web03/index.html)
 - [Página web 04](web04/index.html)
+- [Página web 05](web05/index.html)
+- [Página web 06](web06/index.html)
 
 ## Processing
 - [Trabajos de Processing](https://github.com/Ramirojuarezgiacomo/Tecnomultimedia/tree/main/Processing)
