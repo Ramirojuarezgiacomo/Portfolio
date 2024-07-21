@@ -1,0 +1,433 @@
+<!-- 1920 x 1080 -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Infobae</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="img/logo.png" alt="Infobae Logo">
+        <div class="registro-boton">
+            <a href="#">REGISTRARME</a>
+            <a href="#">INICIAR SESIÓN</a>
+        </div>
+    </div>
+
+    <nav class="hamburguesa">
+        <input type="checkbox" id="menu">
+        <label for="menu"> ☰ </label>
+        <ul>
+          <li>Argentina</li>
+          <li>Colombia</li>
+          <li>España</li>
+          <li>México</li>
+          <li>Perú</li>
+          <li>Mundo</li>
+          <li>Copa America</li>
+          <li>Euro Copa</li>
+          <li>Ultimas Noticias</li>
+          <li>Política</li>
+          <li>Economía</li>
+          <li>Teleshow</li>
+          <li>Deportes</li>
+          <li>Sociedad</li>
+          <li>Policiales</li>
+          <li>Chacra y Campo</li>
+          <li>Movant</li>
+          <LI>Turismo</LI>
+          <li>Tendencias</li>
+          <li>Que puedo ver</li>
+          <li>Educación</li>
+          <li>Podcast</li>
+          <li>Video</li>
+          <li>Juegos</li>
+          <li>Newsletter</li>
+          <li>Cultura</li>
+          <li>Malditos Nerds</li>
+          <li>Tecno</li>
+          <li>Virales</li>
+          <li>Judiciales</li>
+          <li>Salud</li>
+          <li>Autos</li>
+        </ul>
+      </nav>
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"> Noticias <img src="img/flecha.png" alt="">
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Política</a>
+            <a href="#">Economía </a>
+            <a href="#">Socidad </a>
+        </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Entretenimiento <img src="img/flecha.png" alt="">
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Espectáculo</a>
+            <a href="#">Farándula</a>
+            <a href="#">Cine</a>
+            <a href="#">Música</a>
+        </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Deportes <img src="img/flecha.png" alt="">
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Fútbol</a>
+            <a href="#">Basquet</a>
+            <a href="#">Tenis</a>
+            <a href="#">Rugby</a>
+            <a href="#">Boxeo</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Estilo de vida <img src="img/flecha.png" alt="">
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Tecnología</a>
+            <a href="#">Salud</a>
+            <a href="#">Viajes</a>
+            <a href="#">Gastronomía</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn"> Opinión <img src="img/flecha.png" alt="">
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Análisis</a>
+            <a href="#">Opinión de expertos</a>
+            
+        </div>
+    </div>
+</div>
+    <div class="perfil_tema">
+        <img src="img/portada.png" alt="banner bullrich">
+        <div class="datos">
+            <h2>Patricia Bullrich</h2>
+            <p>Politica 15 Articulos relacionados 20% positivos</p>
+            <p>Actualizado 30 Jun, 2024 23:00pm AR</p>
+        </div>
+    </div>
+    <div class="contenedor-n-principal">
+        <div class="flex-not-tem">
+            <div class="seccion-n-principal">
+                <h2>Lo último</h2>
+                <div class="contenedor-n">
+                    <h3>La Oficina Anticorrupción denunció en Comodoro Py al ex número dos de Patricia Bullrich</h3>
+                    <p>La salida del segundo del Ministerio de Seguridad estalló la interna en el PRO entre Macri y
+                        Bullrich: el vínculo con Milei</p>
+                    <img src="img/bullrich00.jpg" alt="Noticia 1">
+                </div>
+            </div>
+            <!--acordeon-->
+            <section class="contenedor-seccion">
+                <div class="contenedor-acordeon">
+                    <h2 class="no-subrayado">Temas en tendencia</h2>
+                    <div class="acordeon" id="acordeon1">
+                        <input type="checkbox" id="btn-acordeon1" class="btn-acordeon">
+                        <label for="btn-acordeon1" class="acordeon-label">
+                            <div class="acordeon-texto">
+                                <p>Politica</p>
+                                Patricia Bullrich
+                                <p>15 Articulos 20% Positivos</p>
+                            </div>
+                            <span class="icono"><img src="img/flecha.png"></span>
+                        </label>
+                        <div class="contenido-acordeon">
+                            <img src="img/bullrich.jpg" alt="Patricia Bullrich" class="img-acordeon">
+                            <p>La Oficina Anticorrupción denunció en Comodoro Py al ex número dos de Patricia Bullrich
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="acordeon" id="acordeon2">
+                        <input type="checkbox" id="btn-acordeon2" class="btn-acordeon">
+                        <label for="btn-acordeon2" class="acordeon-label">
+                            <div class="acordeon-texto">
+                                <p>Deportes</p>
+                                Messi
+                                <p>15 Articulos 90% positivos</p>
+                            </div>
+                            <span class="icono"><img src="img/flecha.png"></span>
+                        </label>
+                        <div class="contenido-acordeon">
+                            <img src="img/messi.jpg" alt="Messi" class="img-acordeon">
+                            <p>Chiqui Tapia habló desde el nuevo Museo de AFA en Miami y se refirió al estado físico de
+                                Messi</p>
+                        </div>
+                    </div>
+
+                    <div class="acordeon" id="acordeon3">
+                        <input type="checkbox" id="btn-acordeon3" class="btn-acordeon">
+                        <label for="btn-acordeon3" class="acordeon-label">
+                            <div class="acordeon-texto">
+                                <p>Economía</p>
+                                Dolar
+                                <p>13 Articulos 50% Positivos</p>
+                            </div>
+                            <span class="icono"><img src="img/flecha.png"></span>
+                        </label>
+                        <div class="contenido-acordeon">
+                            <img src="img/dolar.jpg" alt="Dolar" class="img-acordeon">
+                            <p>COTIZACION DEL DÓLAR HOY</p>
+                        </div>
+                    </div>
+
+                    <div class="acordeon" id="acordeon4">
+                        <input type="checkbox" id="btn-acordeon4" class="btn-acordeon">
+                        <label for="btn-acordeon4" class="acordeon-label">
+                            <div class="acordeon-texto">
+                                <p>Tecnología</p>
+                                Iphone
+                                <p>10 Articulos 90%positivos</p>
+                            </div>
+                            <span class="icono"><img src="img/flecha.png"></span>
+                        </label>
+                        <div class="contenido-acordeon">
+                            <img src="img/iphone.jpg" alt="Iphone" class="img-acordeon">
+                            <p>Sorpresa con el iPhone 16, tendría una batería extraíble y se aplicaría a las próximas
+                                generaciones</p>
+                        </div>
+                    </div>
+
+                    <div class="acordeon" id="acordeon5">
+                        <input type="checkbox" id="btn-acordeon5" class="btn-acordeon">
+                        <label for="btn-acordeon5" class="acordeon-label">
+                            <div class="acordeon-texto">
+                                <p>Entretenimiento</p>
+                                Furia
+                                <p>9 Articulos 70% Positivos</p>
+                            </div>
+                            <span class="icono"><img src="img/flecha.png"></span>
+                        </label>
+                        <div class="contenido-acordeon">
+                            <img src="img/furia.jpg" alt="furia" class="img-acordeon">
+                            <p>El encontronazo de Ximena Capristo y La Tora con Furia al aire: “La mejor jugadora es la
+                                que gana”</p>
+                        </div>
+                    </div>
+                    <h2 class="no-subrayado">Mostrar más</h2>
+                </div>
+            </section>
+        </div>
+        <!-- final de acordeon -->
+
+        <!-- shorts de noticias-->
+        <div class="seccion-nc">
+            <div class="conteiner-nc">
+                <h2>Noticias cortas</h2>
+                <div class="stories">
+                    <div class="card-stories">
+                        <img src="img/stories1.png" alt="Noticia corta 1">
+                        <div class="text">
+                            <p>Debate por la Ley Bases, Bullrich desplegará el protocolo antipiquetes.</p>
+                        </div>
+
+                    </div>
+                    <div class="card-stories">
+                        <img src="img/stories2.png" alt="Noticia corta 2">
+                        <div class="text">
+                            <p>Bullrich volvió a permitir los tests de detector de mentiras para los policías que
+                                investiguen a
+                                narcos.</p>
+                        </div>
+                    </div>
+                    <div class="card-stories">
+                        <img src="img/stories3.png" alt="Noticia corta 3">
+                        <div class="text">
+                            <p>Patricia Bullrich habló luego de los incidentes en el Congreso: "Son capaces de destruir
+                                todo".
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-stories">
+                        <img src="img/stories4.png" alt="Noticia corta 4">
+                        <div class="text">
+                            <p>El pedido de Patricia Bullrich que respaldó Milei en el comienzo del paro: "Hoy no
+                                paremos".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--seccion de likes-->
+            
+                <div class="opinion">
+                    <h2>Opinión de la gente</h2>
+            
+                    <div class="opinion-section">
+                        <h3>La más querida</h3>
+                        <div class="opinion-item">
+                            <img src="img/bullrich.jpg" alt="Patricia Bullrich">
+                            <div>
+                                <div class="text">
+                                    <p>Patricia Bullrich formalizó la denuncia en la Oficina Anticorrupción contra su ex Secretario de Seguridad</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar-inner" style="width: 80%;"></div>
+                                </div>
+                                <div class="thumbs">
+                                    <div class="thumb">
+                                        <img src="img/like2.png" alt="Thumb Up">
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="thumb">
+                                        <img src="img/dislike2.png" alt="Thumb Down">
+                                        <span>20%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="opinion-section">
+                        <h3>La más odiada</h3>
+                        <div class="opinion-item">
+                            <img src="img/bullrich01.jpg" alt="Patricia Bullrich">
+                            <div>
+                                <div class="text">
+                                    <p>Patricia Bullrich encabezó un operativo en Corrientes: "No tenemos datos de Loan"</p>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-bar-inner" style="width: 9%; background-color: red;"></div>
+                                </div>
+                                <div class="thumbs">
+                                    <div class="thumb">
+                                        <img src="img/like2.png" alt="Thumb Up">
+                                        <span>9%</span>
+                                    </div>
+                                    <div class="thumb">
+                                        <img src="img/dislike2.png" alt="Thumb Down">
+                                        <span>81%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+        </div>
+        <!--termina parte de likes-->
+
+        <div class="seccion-nl-3">
+            <h2>Noticias</h2>
+            <div class="row-n3">
+                <div class="card">
+                    <img src="img/bullrich01.jpg" alt="Noticia 1">
+                    <p>La salida del segundo del Ministerio de Seguridad estalló la interna en el PRO entre Macri y
+                        Bullrich: el vínculo con Milei</p>
+                </div>
+                <div class="card">
+                    <img src="img/bullrich02.jpg" alt="Noticia 2">
+                    <p>Búsqueda de Loan: Patricia Bullrich viajará a Paraguay para reunirse con la policía local</p>
+                </div>
+                <div class="card">
+                    <img src="img/bullrich03.png" alt="Noticia 3">
+                    <p>Bullrich nombra a experta en El Salvador y Honduras como nueva secretaria de Seguridad</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-nl-4">
+            <div class="row-n4">
+                <div class="card-n4">
+                    <img src="img/bullrich04.jpg" alt="Noticia 4">
+                    <p>Patricia Bullrich designó a Alejandra Monteoliva como nueva Secretaria de Seguridad</p>
+                </div>
+                <div class="card-n4">
+                    <img src="img/bullrich05.png" alt="Noticia 5">
+                    <p>Qué pasa con el rastreo de perros en el caso Loan: la prueba más fuerte de los fiscales y las
+                        dudas de Patricia Bullrich</p>
+                </div>
+                <div class="card-n4">
+                    <img src="img/bullrich06.png" alt="Noticia 6">
+                    <p>Patricia Bullrich formalizó la denuncia en la Oficina Anticorrupción contra su ex Secretario de
+                        Seguridad</p>
+                </div>
+                <div class="card-n4">
+                    <img src="img/bullrich07.png" alt="Noticia 7">
+                    <p>Patricia Bullrich echó a su número dos y lo denunció ante la OA por sospechas sobre una
+                        licitación para el Servicio Penitenciario</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion-nl-3">
+            <div class="row-n3">
+                <div class="card">
+                    <img src="img/bullrich08.png" alt="Noticia 8">
+                    <p>La salida del segundo del Ministerio de Seguridad estalló la interna en el PRO entre Macri y
+                        Bullrich: el vínculo con Milei</p>
+                </div>
+                <div class="card">
+                    <img src="img/bullrich09.png" alt="Noticia 9">
+                    <p>Búsqueda de Loan: Patricia Bullrich viajará a Paraguay para reunirse con la policía local</p>
+                </div>
+                <div class="card">
+                    <img src="img/bullrich10.png" alt="Noticia 10">
+                    <p>Bullrich nombra a experta en El Salvador y Honduras como nueva secretaria de Seguridad</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-contenedor">
+            <div class="footer-seccion">
+                <img src="img/logo.png" alt="Infobae logo">
+                <div class="footer-iconos">
+                    <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/x.png" alt="X"></a>
+                    <a href="#"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+                    <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+                    <a href="#"><img src="img/telegram.png" alt="Telegram"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="Linkedin"></a>
+                </div>
+            </div>
+            <div class="footer-seccion">
+                <h3>Secciones</h3>
+                <a href="#">América</a>
+                <a href="#">Colombia</a>
+                <a href="#">España</a>
+                <a href="#">México</a>
+                <a href="#">RSS</a>
+                <a href="#">Perú</a>
+                <a href="#">Últimas Noticias</a>
+            </div>
+            <div class="footer-seccion">
+                <h3>Contáctenos</h3>
+                <a href="#">Contacto</a>
+                <a href="#">Redacción</a>
+                <a href="#">Contacto comercial</a>
+                <a href="#">Media Kit</a>
+                <a href="#">Empleo</a>
+            </div>
+            <div class="footer-seccion">
+                <h3>Legales</h3>
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Todos Los Derechos Reservados © 2024 Infobae
+        </div>
+    </footer>
+<script src="js/Script.js"></script>
+</body>
+
+</html>
