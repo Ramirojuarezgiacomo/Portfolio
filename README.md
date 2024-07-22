@@ -24,6 +24,6 @@
 
 - [Trabajo 01 mobile Taller Multimedial 2](https://www.figma.com/proto/LESN1ZgRGnFWjoT51pMnVN/TP1?node-id=4177-1333&t=hF2SV4hD3QGW9vkX-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4177%3A1333).
 - [Trabajo 01 web Taller Multimedial 2](https://www.figma.com/proto/LESN1ZgRGnFWjoT51pMnVN/TP1?page-id=492%3A461&node-id=4178-847&viewport=-1869%2C640%2C0.03&t=h7Y4XytF8F1xevRl-1&scaling=scale-down).
-- 
+  
 - [Trabajo 02 web Taller Multimedial 2](https://www.figma.com/proto/25ObVOXzUPYQsqVnaPDhGr/tp2-taller?node-id=8-3932&t=bhc75A1CW6G9KoYG-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A3932).
 
