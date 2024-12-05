@@ -1,0 +1,363 @@
+.Nucleo3{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    border: 0;
+  
+}
+
+.Fondo1{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    border: 0;
+}
+
+.Menu3-Nucleos{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 0;
+    width: 95%;
+    height: 15%;
+    position: absolute;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu3-Nucleo1, .Menu3-Nucleo2, .Menu3-Nucleo3{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+
+.Menu3-Nucleo1, .Menu3-Nucleo2{
+    opacity: 0.5;
+}
+
+.Menu3-Nucleo1:hover , .Menu3-Nucleo2:hover{
+    opacity: 1;
+}
+
+.foto-contenedor3{
+    width: 100%;
+}
+
+
+.Div-rectanguloTitulo3{
+    margin-right: 3%;
+    width: 75%;
+    display: flex;
+    justify-content: center; 
+}
+
+.Div-rectanguloTitulo3 p {
+    position: absolute ;
+    width: 13%;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto Serif", serif;
+}
+
+.rectanguloTitulo3{
+    bottom: 11000%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: center; 
+
+}
+
+
+/* PARTE DE TITULO NUCLEO 3*/
+
+.TituloNucleo3-Padre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    z-index: 200;
+}
+
+.TituloNucleo3-DivHijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 110px;
+}
+
+
+.Cuadro1-Nucleo3{
+    width: 100%;
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+
+.Cuadro1-Nucleo3 img{
+    width: 70%;
+    height: 80%;
+}
+
+
+.Titulo-Nucleo3{
+    width: 100%;
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.Titulo-Nucleo3 hr{
+    position: absolute;
+    border: 0;
+    height: 0.04%; /* Espesor de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    width: 40%; /* Puedes ajustar el ancho */
+    margin: 5% 0; /* Espaciado alrededor de la línea */
+    z-index: 20;
+    top: 32.5%;
+    right: 11%;
+  
+}
+
+.Titulo-Nucleo3 h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    width: 90%;
+    text-align: left;
+    font-weight: 700;
+    font-family: "Roboto Serif", serif;
+    z-index: 5;
+    margin-left: 3%;
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.8);;
+}
+
+.Titulo-Nucleo3 p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 90%;
+    text-align: left;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    z-index: 5;
+    margin-left: 3%;
+}
+
+.Titulo-Nucleo3 img{
+    width: 53%;
+    position: absolute;
+    right: 0.2%;
+    opacity: 5;
+}
+
+
+.TituloImagen-Nucleo3{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+}
+
+.TituloImagen-Nucleo3 img{
+    width: 80%;
+}
+
+.TituloImagen1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TituloImagen2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* TERMINA PARTE DE TITULO */
+
+/* herramientas 
+.herramientas{
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    z-index: 20;
+}*/
+.carruselnucleo3{
+    width: 100%;
+    height: 1080px;
+    position: absolute;
+    z-index: 20;
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: stretch;
+    gap: -1;
+    /* Espacio entre imagen y texto */
+    scroll-snap-align: start;
+    min-width: calc(100% - 10%);
+    /* Deja espacio para el siguiente slide */
+}
+
+.card {
+    display: flex;
+    align-items: stretch; /* Mantener la alineación estirada */
+    flex-direction: row; /* Mantener el texto a la derecha */
+}
+
+.texto-frontal {
+  
+    position: absolute; /* Coloca el texto en posición absoluta */
+    top: 24%; /* Centra verticalmente el primer texto */
+    left: 5%; /* Centra horizontalmente */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    z-index: 10; /* Asegúrate de que el índice Z sea alto para estar encima de la imagen */
+}
+
+.texto-frontal2 {
+    position: absolute; /* Coloca el segundo texto en posición absoluta */
+    top: 30%; /* Ajusta la posición vertical del segundo texto */
+    left: 5%; /* Mantiene la misma posición horizontal */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    z-index: 10; /* Asegúrate de que el índice Z sea alto para estar encima de la imagen */
+}
+
+.texto-frontal-ultimos {
+    position: absolute; /* Coloca el texto en posición absoluta */
+    top: 21%; /* Centra verticalmente el primer texto */
+    left: 5%; /* Centra horizontalmente */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    z-index: 10; /* Asegúrate de que el índice Z sea alto para estar encima de la imagen */
+}
+
+.texto-frontal-ultimos2 {
+    position: absolute; /* Coloca el segundo texto en posición absoluta */
+    top: 28%; /* Ajusta la posición vertical del segundo texto */
+    left: 5%; /* Mantiene la misma posición horizontal */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    z-index: 10; /* Asegúrate de que el índice Z sea alto para estar encima de la imagen */
+}
+
+.textocard-background {
+    display: none;
+    color: white;
+    font-size: 30px;   
+    text-align: left;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    margin: 387px 0px 0px 0px; /* Cambia el padding superior según sea necesario */
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 600px; /* Ajusta este valor según necesites */
+    width: auto; /* Permite que el contenedor se ajuste automáticamente */
+    height: auto; /* Cambiado para que se ajuste automáticamente */
+}
+
+
+img {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+
+.imagen-icono {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.dos-columnas {
+    display: flex;
+    justify-content: flex-start; /* Cambiado para reducir el espaciado */
+    margin-top: 32px; /* Espacio vertical entre las filas */
+}
+
+.dos-columnas > div {
+    margin-right: 25%; /* Ajusta este valor según sea necesario */
+}
+
+.dos-columnas > div:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+/* para mostrar el fondo */
+.texto-visible {
+    display: block;
+    
+}
+
+/* Colores de fondo para cada imagen */
+.bg1 {
+    background-color: #81985E;
+    border-right: 20px solid #61773E;
+}
+
+.bg2 {
+    background-color: #9B5555;
+    border-right: 20px solid #6A3737;
+}
+
+.bg3 {
+    background-color: #6E6868;
+    border-right: 20px solid #3F3535;
+}
+
+.bg4 {
+    background-color: #7778A0;
+    border-right: 20px solid #4D4E70;
+}
+
+.bg5 {
+    background-color: #558393;
+    border-right: 20px solid #0B3F51;
+}
+
+.bg6 {
+    background-color: #647DB2;
+    border-right: 20px solid #13357D;
+}
