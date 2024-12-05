@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+            <meta name="author" content="Talle Multimedia 2 Grupo 7 Turno tarde">
+            <meta name="lenguage" content="es">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>infografia IA</title>
+
+            <!-- linkeo de las hojas de estilo ".css" -->
+
+            <link rel="icon" href="img/Robot/RobotQuieto.png">
+            <link rel="stylesheet" href="Normalize.css">
+            <link rel="stylesheet" type="text/css" href="estilos.css">
+            
+
+            <!-- linkeo de las hojas de javascript".js" -->
+            <script src="javascript.js" defer></script>  <!-- Vincular el archivo JS correctamente -->
+      
+            <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> <!-- JS DEL NUCLEO 3-->
+
+            <!-- linkeo de tipografia desde google fonts-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+    </head>
+    <body>
+    <header class="MenuInicial">
+
+        <div class="RecorteTema">
+            <img class="blurTitulo" src="img/Fondos/BlurTitulo.png" alt="">
+            <div class="recorte-DivHijo">
+                <h2>MODIFICACION DE IMÁGENES</h2>
+                <p>Nueva era del arte o una nueva amenaza para los artistas</p>
+            </div>
+        </div>
+        
+        <div class="Nucleos">
+            <div class="Menu-Nucleo1">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo1ID">
+                        <img src="img/Menu/Nucleo1.png" alt="" class="foto-hover">
+                    </a>
+                   
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>”¿POR QUÉ LOS ARTISTAS CONSIDERAN UNA AMENAZA A LA IA?”</p>
+                </div>
+            </div>
+            <div class="Menu-Nucleo2">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo2ID">
+                        <img src="img/Menu/Nucleo2.png" alt="" class="foto-hover">
+                    </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS”</p>
+                </div>
+            </div>
+            <div class="Menu-Nucleo3">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo3ID">
+                        <img src="img/Menu/Nucleo3.png" alt="" class="foto-hover">
+                    </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“ARTISTAS QUE UTILIZARON A LAS IAS PARA SUS OBRAS”</p>
+                </div>
+            </div>
+
+
+            <div class="RobotMenu">
+                <!-- Input checkbox oculto para alternar entre las imágenes -->
+                <input type="checkbox" id="toggle-robot" class="toggle-checkbox">
+                
+                <!-- Contenedor del robot y la chispa, envueltos en un label para activar el checkbox al hacer clic -->
+                <label class="label-robot" for="toggle-robot">
+                   
+                     <!-- habia texto ahora es un soporte para que robot no se mueva xd -->
+                    <div class="RobotBlur1">
+                
+                    </div>
+                    
+                    <div class="RobotAnimacion1">
+                        <img class="chispa" src="img/Robot/chispa.png" alt="Chispa inicial">
+                        <img class="robot1" src="img/Robot/RobotQuieto.png" alt="Robot inicial">
+                    </div>
+                   
+                </label>
+            
+                <!-- Contenedor de la animación del robot saludando (oculto por defecto) -->
+                <div class="image-animation">
+                    <div class="Div-Burbuja1">
+                        <img class="burbuja" src="img/Robot/bluer-Robot.png" alt="">    
+                        <p>¡Bienvenido! Podés empezar con la primer obra de la izquierda, o con la que llame tu atención.</p>
+                    </div>
+                  
+                    <img class="img1" src="img/Robot/RobotSaludando.png" alt="Imagen 1">
+                    <img class="img2" src="img/Robot/robot03.png" alt="Imagen 2">
+                </div>
+            </div>
+
+
+        </div>
+
+         
+        <img class="Fondo1" src="img/Fondos/Fondo1.png" alt="">
+
+    </header>
+
+    <img class="Fondo2" src="img/Fondos/Fondo2.png" alt=""> 
+
+            <!-- NUCLEO 1 -->
+
+    <section class="Nucleo1">
+
+        <div class="TituloNucleo1-Padre">
+            <div id="Nucleo1ID"  class="Cuadro1-Nucleo1">
+                <img src="img/Menu/Nucleo1.png" alt="">
+            </div>
+            <div class="TituloNucleo1-DivHijo1">
+                <div class="Titulo-Nucleo1">
+                    <h2>¿POR QUÉ LOS ARTISTAS CONSIDERAN A LA IA UNA AMENAZA?</h2>
+                    <hr>
+                    <p>Las IA han impactado la creación artística, generando dudas sobre su capacidad para reemplazar a los artistas humanos.</p>
+                    <img src="img/Nucleo1/bluer.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Debate NUCLEO 1 -->
+
+       
+        <div class="Debate-DivPadre">
+            <div class="debate-DivHijo1">
+                <div class="Robot15">
+                    <!-- Input checkbox oculto para alternar entre las imágenes -->
+                    <input type="checkbox" id="toggle-robot15" class="toggle-checkbox15">
+                    
+                    <!-- Contenedor del robot y la chispa, envueltos en un label para activar el checkbox al hacer clic -->
+                    <label class="label-robot15" for="toggle-robot15">
+                        <div class="RobotAnimacion15">
+                            <img class="chispa15" src="img/Robot/chispa.png" alt="Chispa inicial">
+                            <img class="robot15" src="img/Robot/RobotQuieto.png" alt="Robot inicial">
+                        </div>
+                    </label>
+            
+                    <!-- Contenedor de la animación del robot saludando (oculto por defecto) -->
+                    <div class="image-animation15">
+                        <img class="img1" src="img/Robot/RobotSaludando.png" alt="Imagen 1">
+                        <img class="img2" src="img/Robot/robot03.png" alt="Imagen 2">
+                        <div class="Div-Burbuja15">
+                            <img class="burbuja15" src="img/Robot/bluer-Robot.png" alt="">
+                            <p>¿Cuál de estas controversias sobre la IA crees que podrían afectar al arte?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        
+            <div class="debate-DivHijo2">
+                <div class="debateCuadro debateCuadro1" onclick="checkAnswer(1)">
+                    <img src="img/Nucleo1/cuadros/Automatizacion/Automatizacion.png" alt="">
+                </div>
+                <div class="debateCuadro debateCuadro2" onclick="checkAnswer(2)">
+                    <img src="img/Nucleo1/cuadros/Originalidad/Originalidad.png" alt="">
+                </div>
+                <div class="debateCuadro debateCuadro3" onclick="checkAnswer(3)">
+                    <img src="img/Nucleo1/cuadros/Rebelion.png" alt="">
+                </div>
+                <div class="debateCuadro debateCuadro4" onclick="checkAnswer(4)">
+                    <img src="img/Nucleo1/cuadros/Deshumanizacion/Deshumanizacion.png" alt="">
+                </div>
+                <div class="debateCuadro debateCuadro5" onclick="checkAnswer(5)">
+                    <img src="img/Nucleo1/cuadros/Clarividencia.png" alt="">
+                </div>
+                <div class="debateCuadro debateCuadro6" onclick="checkAnswer(6)">
+                    <img src="img/Nucleo1/cuadros/Valor/Valor.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ventana emergente -->
+        <div id="ventanaEmergente" class="ventanaEmergente">
+            <span class="cerrar" onclick="closeventanaEmergente()"><img src="img/Nucleo1/Close.png" alt=""></span>
+            <div class="ventanaEmergente-content">
+                <div class="infoventanaEmergenteMinijuego">
+                    <div class="infoJuegoDiv1" >
+                        <h2></h2>
+                        <img src="" alt="">
+                    </div>
+                    <div class="infoJuegoDiv2">
+                        <img src="" alt="">
+                        <p></p>
+                    </div>  
+                </div>
+                <div class="respuestasventanaEmergenteMinijuego">
+                    <div class="preguntaventanaEmergenteMinijuego">
+                        <p></p>
+                    </div>
+                    <div class="Respuestas">
+                        <div class="respuestaventanaEmergente1">
+                            <img src="" alt="Respuesta 1" id="img1" onclick="mostrarTexto(1)" style="opacity: 1;">
+                        </div>
+                        <div class="respuestaventanaEmergente2">
+                            <img src="" alt="Respuesta 2" id="img2" onclick="mostrarTexto(2)" style="opacity: 0.5;">
+                        </div>
+                        <div class="respuestaventanaEmergente3">
+                            <img src="" alt="Respuesta 3" id="img3" onclick="mostrarTexto(3)" style="opacity: 0.5;">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contenedoresRespuestas">
+                    <div class="contenedorTexto1" id="contenedorTexto1">
+                        <p id="parrafoTexto1"></p>
+                    </div>
+                    <div class="contenedorTexto2" id="contenedorTexto2">
+                        <p id="parrafoTexto2"></p>
+                    </div>
+                    <div class="contenedorTexto3" id="contenedorTexto3">
+                        <p id="parrafoTexto3"></p>
+                    </div>
+                    
+                </div>
+               
+                
+        
+            </div>
+        </div>
+  
+       
+        
+        <img class="Fondo3" src="img/Fondos/Fondo4.png" alt="">
+
+         <!-- Encuesta NUCLEO 1 -->
+
+      <div class="Encuesta1-DivPadre">
+        <div class="Encuesta1-DivHijo1">
+            <img src="img/Robot/RobotSaludando.png" alt="Robot Saludando">
+        </div>
+        <div class="Encuesta1-DivHijo2">
+            <div class="EncuestaTexto1">
+                <img src="img/Robot/bluer-Robot.png" alt="Blue Robot">
+                <p>¿Y vos que opinas de estas controversias?</p>
+            </div>
+            <div class="EncuestaBotones1">
+                <div class="BotonLike1" onclick="mostrarPositivo1()">
+                    <img src="img/Encuesta/Like.png" alt="Like">
+                </div>
+                <div class="BotonNoLike1" onclick="mostrarNegativo1()">
+                    <img src="img/Encuesta/NoLike.png" alt="No Like">
+                </div>
+            </div>
+            <div class="EncuestaNegativa1 oculto1" id="encuestaNegativa1">
+                <img src="img/Encuesta/EncuestaNegativa.png" alt="Encuesta Negativa">
+                <p>No te preocupes, Entrepreneur con un informe de la universidad de México menciona que algunos países, el 20% se mantiene esceptica a su uso.</p>
+            </div>
+            <div class="EncuestaPositiva1 oculto1" id="encuestaPositiva1">
+                <img src="img/Encuesta/EncuestaPositiva.png" alt="Encuesta Positiva">
+                <p>La pagina Entrepreneur en un informe de la universidad de México menciona, el 80% de personas de varios paises utiliza IA en su día día.</p>
+            </div>
+        </div>
+    </div>
+
+<img class="Fondo3" src="img/Fondos/Fondo4.png" alt="">
+    </section>
+
+
+  <!-- NUCLEO 2 -->
+
+    <section class="Nucleo2">
+       
+        <div class="Menu2-Nucleos">
+            <div class="Menu2-Nucleo1">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo1ID">   
+                        <img src="img/Menu/Nucleo1.png" alt="" class="foto-hover">
+                    </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>”¿POR QUÉ LOS ARTISTAS CONSIDERAN UNA AMENAZA A LA IA?”</p>
+                </div>
+            </div>
+            <div class="Menu2-Nucleo2">
+                <div class="foto-contenedor2">
+                    <a href="#Nucleo2ID"> 
+                        <img src="img/Menu/Nucleo2.png" alt="" class="foto-hover">
+                    </a>
+                </div>
+                <div class="Div-rectanguloTitulo2">
+                    <img class="rectanguloTitulo2"  src="img/Menu/Titulo.png" alt="">
+                    <p>“LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS”</p>
+                </div>
+            </div>
+            <div class="Menu2-Nucleo3">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo3ID">
+                    <img src="img/Menu/Nucleo3.png" alt="" class="foto-hover">
+                </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“ARTISTAS QUE UTILIZARON A LAS IAS PARA SUS OBRAS”</p>
+                </div>
+            </div>
+
+            
+            <div class="RobotMenu2">
+                <!-- Input checkbox oculto para alternar entre las imágenes -->
+                <input type="checkbox" id="toggle-robot2" class="toggle-checkbox2">
+                
+                <!-- Contenedor del robot y la chispa, envueltos en un label para activar el checkbox al hacer clic -->
+                <label class="label-robot2" for="toggle-robot2">
+                   
+                     <!-- habia texto ahora es un soporte para que robot no se mueva xd -->
+                    <div class="RobotBlur2">
+                        
+                    </div>
+                    
+                    <div class="RobotAnimacion2">
+                        <img class="chispa2" src="img/Robot/chispa.png" alt="Chispa inicial">
+                        <img class="robot2" src="img/Robot/RobotQuieto.png" alt="Robot inicial">
+                    </div>
+                   
+                </label>
+            
+                <!-- Contenedor de la animación del robot saludando (oculto por defecto) -->
+                <div class="image-animation2">
+                    <div class="Div-Burbuja2">
+                        <img class="burbuja2" src="img/Robot/bluer-Robot.png" alt="">    
+                        <p>¿Te está gustando el recorrido? Ahora te toca la obra del centro.</p>
+                    </div>
+                  
+                    <img class="img1" src="img/Robot/RobotSaludando.png" alt="Imagen 1">
+                    <img class="img2" src="img/Robot/robot03.png" alt="Imagen 2">
+                </div>
+            </div>
+        </div>
+      
+
+        
+        <img class="Fondo1" src="img/Fondos/Fondo1.png" alt="">
+
+       
+        <!-- Titulo NUCLEO 2 -->
+
+        <img class="Fondo2" src="img/Fondos/Nucleo2Fondo2.png" alt="">
+
+        <div class="TituloNucleo2-Padre">
+            <div id="Nucleo2ID"  class="Cuadro1-Nucleo2">
+                <img src="img/Menu/Nucleo2.png" alt="">
+            </div>
+            <div class="TituloNucleo2-DivHijo1">
+                <div class="Titulo-Nucleo2">
+                    <h1>LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS</h1>
+                    <hr> 
+                    <p>La IA está empoderando a los artistas con nuevas herramientas creativas y procesos de trabajo mejorados. Desde crear a partir de palabras o con imágenes.</p>
+                    <img src="img/Nucleo2/bluer.png" alt="">
+                </div>
+                <div class="TituloImagen-Nucleo2">
+                    <div class="TituloImagen1">
+                        <div>
+                            <img src="img/Nucleo2/letras.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/Nucleo2/herramientas.png" alt="">
+                        </div>
+                    </div>
+                    <div class="TituloImagen2">
+                        <div>
+                            <img src="img/Nucleo2/fotos.png" alt="">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+         
+      
+          <!-- Carrousel NUCLEO 2 -->
+
+          <div class="herramientas">
+            
+            <div class="titutoloCarrousel">
+                <img src="img/Nucleo2/cuadroDecoNucleo2.png" alt="">
+                <h2>HERRAMIENTAS IA QUE GENERAN IMÁGENES</h2>
+            </div>
+            
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide0">
+        
+                    </div>
+                    <div class="slide slide-1" onclick="openPopup('DALL-E 2 ', 'img/Nucleo2/Carrousel/logoIA/IA1.png', 'img/Nucleo2/Carrousel/desplegado/img1.png', '<p><strong>País origen:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/paises/USA.png\' alt=\'USA\'>','<p><strong>Fundadores:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/Windows.png\' alt=\'Microsoft\'>', '<p>Generan imágenes únicas a partir de texto, demostrando la capacidad de la IA para crear arte original.</p>', 'rgb(19, 53, 125)')">
+                        <img src="img/Nucleo2/Carrousel/logoIA/IA1.png" alt="">
+                        <p>DALL-E 2 </p>
+                    </div>
+                    <div class="slide slide-2" onclick="openPopup('Style/GAN', 'img/Nucleo2/Carrousel/logoIA/IA2.png', 'img/Nucleo2/Carrousel/desplegado/img2.png', '<p><strong>País origen:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/paises/USA.png\' alt=\'USA\'> ','<p><strong>Fundadores:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/NVIDIA.png\' alt=\'Microsoft\'>',' <p>Puede producir imágenes que son más precisas que antes y StyleGAN2 también mejora la calidad de la imagen.</p>', 'rgb(219, 142, 36)')">
+                        <img src="img/Nucleo2/Carrousel/logoIA/IA2.png" alt="">
+                        <p>Style/GAN  <br>
+                            Style/GAN-2</p>
+                    </div>
+                    <div class="slide slide-3" onclick="openPopup('MidJourney', 'img/Nucleo2/Carrousel/logoIA/IA3.png', 'img/Nucleo2/Carrousel/desplegado/img3.png', '<p><strong>País origen:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/paises/USA.png\' alt=\'USA\'> ','<p><strong>Fundadores:</strong> David Holz</p>',' <p>Se especializa en la generación de ilustraciones de estilo de anime. Las ilustraciones que genere no tienen licencia y se puede usar como diseño de para anuncios etc.</p>', 'rgb(97, 119, 62)')">
+                        <img src="img/Nucleo2/Carrousel/logoIA/IA3.png" alt="">
+                        <p>MidJourney</p>
+                    </div>
+                    <div class="slide slide-4" onclick="openPopup('Cre8tiveAI', 'img/Nucleo2/Carrousel/logoIA/IA4.png', 'img/Nucleo2/Carrousel/desplegado/img4.png',  '<p><strong>País origen:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/paises/japon.png\' alt=\'japon\'> ','<p><strong>Fundadores:</strong> Radious5</p>','<p>Es una plataforma para herramientas de IA como la mejora de imágenes, video fotográfico, caricatura y creación de ilustraciones.</p>', 'rgb(142, 74, 54)')">
+                        <img src="img/Nucleo2/Carrousel/logoIA/IA4.png" alt="">
+                        <p>Cre8tiveAI</p>
+                    </div>
+                    <div class="slide slide-5" onclick="openPopup('Artbreeder', 'img/Nucleo2/Carrousel/logoIA/IA5.png', 'img/Nucleo2/Carrousel/desplegado/img5.png',  '<p><strong>País origen:</strong></p><img src=\'img/Nucleo2/Carrousel/Iconos/paises/USA.png\' alt=\'USA\'> ','<p><strong>Fundadores:</strong> Joel Simón</p>','<p>Al cargar diferentes imágenes puede generar automáticamente diferentes imágenes. Se puede subir ilustraciónes para crear una imagen de una persona irreal, También te permite crear paisajes.</p>', 'rgb(19, 53, 125)')">
+                        <img src="img/Nucleo2/Carrousel/logoIA/IA5.png" alt="">
+                        <p>Artbreeder</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contenedor del Pop-up -->
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup()"><img src="img/Nucleo2/Carrousel/Iconos/Close.png" alt=""></span>
+                    <div>
+                        <p class="TITULO" id="popup-text" ></p> <!-- TITULO H2 -->
+                        <div class="textoPaises" id="Paises"></div> <!-- info paises -->
+                        <div class="textoFundadores" id="Fundadores"></div> <!-- info fundadores -->
+                        <div class="textoCaracteristicas" id="caracteristicas"></div> <!-- Contenedor para información adicional -->
+                        <button class="BOTON" onclick="showOverlayImage()" >¿Querés ver un ejemplo? </button> <!-- BOTON MUESTRA IMG IA -->
+                    </div>
+                    <div class="logoIA">
+                        <img  id="popup-image" src="" alt="" style="display:none; max-width: 80%; "> <!-- LOGO DE LA IA -->
+                    </div>
+                   
+                  
+                </div>
+            </div>
+            
+            <!-- Contenedor para la imagen que se muestra encima -->
+            <div id="overlay" class="overlay" style="display:none;">
+                <img id="overlay-image" src="" alt="Imagen sobre el pop-up" class="overlay-image">
+                <button onclick="closeOverlay()" class="close-overlay">Cerrar</button>
+            </div>
+        </div>
+        <img class="Fondo3" src="img/Fondos/Nucleo2Fondo4.png" alt="">
+
+
+        <!-- Encuesta NUCLEO 2 -->
+
+       
+        <div class="Encuesta-DivPadre">
+            <div class="Encuesta-DivHijo1">
+                <img src="img/Robot/RobotSaludando.png" alt="Robot Saludando">
+            </div>
+            <div class="Encuesta-DivHijo2">
+                <div class="EncuestaTexto">
+                    <img src="img/Robot/bluer-Robot.png" alt="Blue Robot">
+                    <p>¿La utilizarías como herramienta?</p>
+                </div>
+                <div class="EncuestaBotones">
+                    <div class="BotonLike" onclick="mostrarPositivo()">
+                        <img src="img/Encuesta/Like.png" alt="Like">
+                    </div>
+                    <div class="BotonNoLike" onclick="mostrarNegativo()">
+                        <img src="img/Encuesta/NoLike.png" alt="No Like">
+                    </div>
+                </div>
+                <div class="EncuestaNegativa oculto" id="encuestaNegativa">
+                    <img src="img/Encuesta/EncuestaNegativa.png" alt="Encuesta Negativa">
+                    <p>El 20% de los votantes decide no utilizar la tecnología, pero a veces es bueno probar nuevos métodos.</p>
+                </div>
+                <div class="EncuestaPositiva oculto" id="encuestaPositiva">
+                    <img src="img/Encuesta/EncuestaPositiva.png" alt="Encuesta Positiva">
+                    <p>El 80% de los votantes decide aprovechar cualquier medio y herramienta a su favor para acelerar tiempos.</p>
+                </div>
+            </div>
+        </div>
+        
+        <img class="Fondo3" src="img/Fondos/Nucleo2Fondo4.png" alt="">
+      
+    </section>
+
+
+     <!-- NUCLEO 3 -->
+     <section class="Nucleo3">
+       
+        <div class="Menu3-Nucleos">
+            <div class="Menu3-Nucleo1">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo1ID">   
+                        <img src="img/Menu/Nucleo1.png" alt="" class="foto-hover">
+                    </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>”¿POR QUÉ LOS ARTISTAS CONSIDERAN UNA AMENAZA A LA IA?”</p>
+                </div>
+            </div>
+            <div class="Menu3-Nucleo2">
+                <div class="foto-contenedor">
+                    <a href="#Nucleo2ID">   
+                    <img src="img/Menu/Nucleo2.png" alt="" class="foto-hover">
+                </a>
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS”</p>
+                </div>
+            </div>
+            <div class="Menu3-Nucleo3">
+                <div class="foto-contenedor3">
+                    <img src="img/Menu/Nucleo3.png" alt="" class="foto-hover">
+                </div>
+                <div class="Div-rectanguloTitulo3">
+                    <img class="rectanguloTitulo3"  src="img/Menu/Titulo.png" alt="">
+                    <p>“ARTISTAS QUE UTILIZARON A LAS IAS PARA SUS OBRAS”</p>
+                </div>
+            </div>
+
+            <!-- EL ROBOT NO VA ACA PERO SI LO SACO SE ROMPE TODO -->
+            <div class="RobotMenu3">
+                <!-- Input checkbox oculto para alternar entre las imágenes -->
+                <input type="checkbox" id="toggle-robot3" class="toggle-checkbox3">
+                <!-- Contenedor del robot y la chispa, envueltos en un label para activar el checkbox al hacer clic -->
+                <label class="label-robot3" for="toggle-robot3"> 
+                     <!-- habia texto ahora es un soporte para que robot no se mueva xd -->
+                    <div class="RobotBlur3">                        
+                    </div>                    
+                    <div class="RobotAnimacion3">
+                        <img class="chispa3" src="img/Robot/chispa.png" alt="Chispa inicial">
+                        <img class="robot3" src="img/Robot/RobotQuieto.png" alt="Robot inicial">
+                    </div>                   
+                </label>           
+                <!-- Contenedor de la animación del robot saludando (oculto por defecto) -->
+                <div class="image-animation3">
+                    <div class="Div-Burbuja3">
+                        <img class="burbuja3" src="img/Robot/bluer-Robot.png" alt="">    
+                        <p>Ésta es la última sala que verás.
+                            ¡Espero que lo disfrutes!</p>
+                    </div>
+                    <img class="img1" src="img/Robot/RobotSaludando.png" alt="Imagen 1">
+                    <img class="img2" src="img/Robot/robot03.png" alt="Imagen 2">
+                </div>
+            </div>
+        </div>
+
+        <img class="Fondo1" src="img/Fondos/Nucleo2Fondo1.png" alt="">
+<!-- TERMINA ROBOT -->
+
+
+       
+        <!-- Titulo NUCLEO 3 -->
+
+        <img class="Fondo2" src="img/Fondos/Nucleo3Fondo2.png" alt="">
+
+        <div class="TituloNucleo3-Padre">
+            <div id="Nucleo3ID"  class="Cuadro1-Nucleo3">
+                <img src="img/Menu/Nucleo3.png" alt="">
+            </div>
+            <div class="TituloNucleo3-DivHijo1">
+                <div class="Titulo-Nucleo3">
+                    <h1>ARTISTAS QUE UTILIZARON A LA IA PARA SUS OBRAS</h1>
+                    <hr> 
+                    <p>En esta  última  sala te mostramos  a los  artistas que vienen siendo tendencia en los últimos años en el mundo de la IA. Queremos mostrar cómo  la IAsfueron utulizadas como herramientas para sus obras.
+                    </p>
+                    <img src="img/Nucleo3/bluer.png" alt="">
+                </div>
+               
+            </div>
+        </div>
+
+
+<!-- COMIENZA CARRUSEL-->
+<div class="carruselnucleo3">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    
+                    <div class="card">
+                        <div class="texto-frontal">Portraits of Imaginary People</div> <!-- Texto superior -->
+                        <div class="texto-frontal2">Autor: Mike Tyka</div> <!-- Texto inferior -->
+
+                    <img id="imagen1" src="img/Nucleo3/cuadros/cuadroplaca00.png" alt="Imagen 1">
+                    <div class="textocard-background bg1" id="textocardBackground1">
+                        <div style="margin-top: 32px; margin-left: 32px">Se utiliza GANs para crear su arte, se inspira en la biología y la
+                            naturaleza, colaborando en proyectos de IA y exhibiendo globalmente.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/Austria.png"
+                                alt="Pequeña imagen 2">
+                            ARS Electronica, Linz
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px" >
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2017
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/NVIDIA.png" alt="Pequeña imagen 4">
+                                Gans1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card">
+
+                        <div class="texto-frontal">Neural Zoo</div> <!-- Texto superior -->
+                        <div class="texto-frontal2">Autor: Sofía Crespo</div> <!-- Texto inferior -->
+
+                    <img id="imagen2" src="img/Nucleo3/cuadros/cuadroplaca01.png" alt="Imagen 2">
+                    <div class="textocard-background bg2" id="textBackground2">
+                        <div style="margin-top: 32px; margin-left: 32px">Emplea IA que genera organismos híbridos, desafiando lo orgánico y
+                            artificial. Presenta seres surrealistas creados con redes neuronales, ampliando la imaginación
+                            biológica.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/USA.png"
+                                alt="Pequeña imagen 2">
+                            CADAF Miami
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px">
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2018-2020
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/NVIDIA.png" alt="Pequeña imagen 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card">
+
+                        <div class="texto-frontal">Blind Self-Portrait</div> <!-- Texto superior -->
+                        <div class="texto-frontal2">Autor: Alejandro Reben</div> <!-- Texto inferior -->
+
+                    <img id="imagen3" src="img/Nucleo3/cuadros/cuadroplaca02.png" alt="Imagen 3">
+                    <div class="textocard-background bg3" id="textBackground3">
+                        <div style="margin-top: 32px; margin-left: 32px">Utiliza IA para generar autorretratos y ha creado la primera charla
+                            TED escrita por una IA y presentada como un cyborg.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/USA.png"
+                                alt="Pequeña imagen 2">
+                            Crocker Art Museum
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px">
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2023
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/ChatGPT.png" alt="Pequeña imagen 4">
+                                GPT-4
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+                <div class="swiper-slide">
+                    <div class="card">
+
+                        <div class="texto-frontal-ultimos">The Uncanny Archive</div> <!-- Texto superior -->
+                        <div class="texto-frontal-ultimos2">Autor: Jake Elwes</div> <!-- Texto inferior -->
+
+                    <img id="imagen4" src="img/Nucleo3/cuadros/cuadroplaca03.png" alt="Imagen 4">
+                    <div class="textocard-background bg4" id="textBackground4" style=" margin: 360px 0px 0px 0px;  height: 450px;">
+                        <div style="margin-top: 32px; margin-left: 32px">Se usa GANs para crear sus obras que exploran la identidad y la
+                            relación humano-máquina, centradas en retratos de figuras.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/Great Britain.png"
+                                alt="Pequeña imagen 2">
+                            Gazelli Art House
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px">
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2019
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/NVIDIA.png" alt="Pequeña imagen 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+                <div class="swiper-slide">
+                    <div class="card">
+
+                        <div class="texto-frontal-ultimos">Memories of Passersby I</div> <!-- Texto superior -->
+                        <div class="texto-frontal-ultimos2">Autor: Mario Klingemann</div> <!-- Texto inferior -->
+
+                    <img id="imagen5" src="img/Nucleo3/cuadros/cuadroplaca04.png" alt="Imagen 5">
+                    <div class="textocard-background bg5" id="textBackground5" style=" margin: 362px 0px 0px 0px;  height: 450px;">
+                        <div style="margin-top: 32px; margin-left: 32px">Utiliza GANs y redes neuronales para crear arte innovador que desafía
+                            sistemas establecidos.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/Spain Flag.png"
+                                alt="Pequeña imagen 2">
+                            Colección Solo
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px">
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2018
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/NVIDIA.png" alt="Pequeña imagen 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="swiper-slide">
+                    <div class="card">
+
+                        <div class="texto-frontal-ultimos">Portrait of Edmond de Belamy</div> <!-- Texto superior -->
+                        <div class="texto-frontal-ultimos2">Autor: Colectivo Obvious</div> <!-- Texto inferior -->
+
+                    <img id="imagen6" src="img/Nucleo3/cuadros/cuadroplaca05.png" alt="Imagen 6">
+                    <div class="textocard-background bg6" id="textBackground6" style=" margin: 362px 0px 0px 0px;  height: 450px;">
+                        <div style="margin-top: 32px; margin-left: 32px">Esta obra del siglo XIX se exhibió siendo la primera obra generada
+                            por IA vendida allí.</div>
+                        <div>
+                            <img class="imagen-icono" style="margin-top: 32px; margin-left: 32px" src="img/Nucleo3/banderas/USA.png"
+                                alt="Pequeña imagen 2">
+                            Christie's NY
+                        </div>
+                        <div class="dos-columnas" style="margin-left: 32px">
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/Calendar.png" alt="Pequeña imagen 3">
+                                2018
+                            </div>
+                            <div>
+                                <img class="imagen-icono" src="img/Nucleo3/NVIDIA.png" alt="Pequeña imagen 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+</div>
+
+<!-- FIN CARRUSEL-->
+
+
+        <img class="Fondo3" src="img/Fondos/Nucleo3Fondo4.png" alt="">
+      
+    </section>
+
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <script>
+     const swiper = new Swiper('.swiper', {
+        loop: true,
+        slidesPerView: 1.2, // Muestra 1.2 slides
+        spaceBetween: 20, // Espacio entre slides
+
+    });
+
+    document.querySelectorAll('.swiper-slide img').forEach(img => {
+        img.addEventListener('click', function () {
+            const currentTextocardBackground = this.nextElementSibling;
+            const allTextocardBackgrounds = document.querySelectorAll('.textocard-background');
+
+            allTextocardBackgrounds.forEach(bg => {
+                if (bg !== currentTextocardBackground) {
+                    bg.classList.remove('texto-visible');
+                }
+            });
+
+            currentTextocardBackground.classList.toggle('texto-visible');
+        });
+    });
+   </script> 
+
+
+    <!-- NUCLEO 3 
+
+    <section class="Nucleo3">
+        <div class="Menu3-Nucleos">
+            <div class="Menu-Nucleo2">
+                <div class="foto-contenedor">
+                    <img src="img/Menu/Nucleo1.png" alt="" class="foto-hover">
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>”¿POR QUÉ LOS ARTISTAS CONSIDERAN UNA AMENAZA A LA IA?”</p>
+                </div>
+            </div>
+            <div class="Menu-Nucleo2">
+                <div class="foto-contenedor">
+                    <img src="img/Menu/Nucleo2.png" alt="" class="foto-hover">
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS”</p>
+                </div>
+            </div>
+            <div class="Menu-Nucleo3">
+                <div class="foto-contenedor">
+                    <img src="img/Menu/Nucleo3.png" alt="" class="foto-hover">
+                </div>
+                <div class="Div-rectanguloTitulo">
+                    <img class="rectanguloTitulo"  src="img/Menu/Titulo.png" alt="">
+                    <p>“ARTISTAS QUE UTILIZARON A LAS IAS PARA SUS OBRAS”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="RobotMenu3">
+            <img class="robot1" src="img/Robot/RobotQuieto.png" alt="">
+        </div>
+        <img class="Fondo1" src="img/Fondos/Nucleo2Fondo1.png" alt="">
+
+         Titulo NUCLEO 3 
+
+
+         <img class="Fondo2" src="img/Fondos/Nucleo3Fondo2.png" alt="">
+         <div class="TituloNucleo3-Padre">
+             <div class="Cuadro1-Nucleo3">
+                 <img src="img/Menu/Nucleo3.png" alt="">
+             </div>
+                     <div class="TituloNucleo3-DivHijo1">
+                         <div class="Titulo-Nucleo3">
+                             <h1>LA IA PUEDE SER UNA HERRAMIENTA PARA LOS ARTISTAS</h1>
+                             <img src="img/Fondos/BlurSubtitulo.png" alt="">
+                         </div>
+                         <div class="TituloNucleo3-DivHijo2">
+                             <div class="Cuadro2-Nucleo1">
+                                 <img src="img/Menu/Nucleo1.png" alt="">
+                             </div>
+                             <div class="Cuadro3-Nucleo2">
+                                 <img src="img/Menu/Nucleo2.png" alt="">
+                             </div>
+                     </div>
+             </div>
+         </div>
+
+    </section>-->
+
+    </body>
+</html>
