@@ -2,7 +2,7 @@
 
 ## Unity
 - [Proyectos en Unity](https://drive.google.com/drive/folders/1T_uxQ99VhSLlLVBYnnd6QKQ_nDfaydpz?usp=drive_link)
-- [Itch.io](https://ramirojuarezg.itch.io/)
+- [Proyectos en itchio](https://ramirojuarezg.itch.io/)
 
 ## Páginas
 
