@@ -12,7 +12,7 @@
 - [Página web 05](web05/index.html)
 - [Página web 06](web06/index.html)
 - [Página web 07](web07/index.html)
-- [Página web 08]([web07/index.html](https://ramirojuarezgiacomo.my.canva.site/mortalis))
+- [Página web 08](https://ramirojuarezgiacomo.my.canva.site/mortalis)
 
 ## Processing
 - [Trabajos de Processing](https://github.com/Ramirojuarezgiacomo/Tecnomultimedia/tree/main/Processing)
