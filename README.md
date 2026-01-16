@@ -29,3 +29,7 @@
   
 - [Trabajo 02 web Taller Multimedial 2](https://www.figma.com/proto/25ObVOXzUPYQsqVnaPDhGr/tp2-taller?node-id=8-3932&t=bhc75A1CW6G9KoYG-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=8%3A3932).
 
+## Edición de vídeo
+- [Kpop random dance](https://www.youtube.com/watch?v=vorJp_UecG0)
+- [Kpop random dance](https://www.youtube.com/watch?v=NsyfcpaRK7c)
+- [Kpop random dance](https://www.youtube.com/watch?v=j99-rodvPXk)
